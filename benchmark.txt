@@ -1,0 +1,84 @@
+== cache
+-- Carta
+25165824 operations across 1 thread(s) in 16.260071389s; time/op = 645ns
+25165824 operations across 2 thread(s) in 11.240897727s; time/op = 446ns
+25165824 operations across 3 thread(s) in 9.533250833s; time/op = 378ns
+25165824 operations across 4 thread(s) in 8.644913823s; time/op = 342ns
+25165824 operations across 5 thread(s) in 8.299263964s; time/op = 328ns
+25165824 operations across 6 thread(s) in 8.126084481s; time/op = 322ns
+25165824 operations across 7 thread(s) in 8.389216629s; time/op = 332ns
+25165824 operations across 8 thread(s) in 8.237742569s; time/op = 326ns
+25165824 operations across 9 thread(s) in 8.236753223s; time/op = 326ns
+25165824 operations across 10 thread(s) in 8.239435285s; time/op = 326ns
+25165824 operations across 11 thread(s) in 8.198960335s; time/op = 324ns
+25165824 operations across 12 thread(s) in 8.186314472s; time/op = 324ns
+-- DashMap
+25165824 operations across 1 thread(s) in 1.814530504s; time/op = 71ns
+25165824 operations across 2 thread(s) in 1.474165829s; time/op = 57ns
+25165824 operations across 3 thread(s) in 675.140124ms; time/op = 26ns
+25165824 operations across 4 thread(s) in 532.882455ms; time/op = 21ns
+25165824 operations across 5 thread(s) in 416.653598ms; time/op = 16ns
+25165824 operations across 6 thread(s) in 397.98264ms; time/op = 15ns
+25165824 operations across 7 thread(s) in 458.184892ms; time/op = 18ns
+25165824 operations across 8 thread(s) in 399.807048ms; time/op = 15ns
+25165824 operations across 9 thread(s) in 392.888429ms; time/op = 15ns
+25165824 operations across 10 thread(s) in 356.352583ms; time/op = 14ns
+25165824 operations across 11 thread(s) in 324.671779ms; time/op = 12ns
+25165824 operations across 12 thread(s) in 312.552917ms; time/op = 12ns
+==
+== exchange
+-- Carta
+25165824 operations across 1 thread(s) in 20.749430441s; time/op = 823ns
+25165824 operations across 2 thread(s) in 14.288976115s; time/op = 567ns
+25165824 operations across 3 thread(s) in 13.457126145s; time/op = 534ns
+25165824 operations across 4 thread(s) in 13.398380168s; time/op = 531ns
+25165824 operations across 5 thread(s) in 13.266065333s; time/op = 526ns
+25165824 operations across 6 thread(s) in 13.277612889s; time/op = 527ns
+25165824 operations across 7 thread(s) in 13.338107713s; time/op = 529ns
+25165824 operations across 8 thread(s) in 13.455266172s; time/op = 534ns
+25165824 operations across 9 thread(s) in 13.483165797s; time/op = 535ns
+25165824 operations across 10 thread(s) in 13.497838184s; time/op = 535ns
+25165824 operations across 11 thread(s) in 13.617452153s; time/op = 540ns
+25165824 operations across 12 thread(s) in 13.78306409s; time/op = 547ns
+-- DashMap
+25165824 operations across 1 thread(s) in 3.067905502s; time/op = 121ns
+25165824 operations across 2 thread(s) in 1.954741815s; time/op = 76ns
+25165824 operations across 3 thread(s) in 1.435688751s; time/op = 56ns
+25165824 operations across 4 thread(s) in 1.222045598s; time/op = 47ns
+25165824 operations across 5 thread(s) in 1.112148175s; time/op = 43ns
+25165824 operations across 6 thread(s) in 1.085893244s; time/op = 42ns
+25165824 operations across 7 thread(s) in 879.384338ms; time/op = 34ns
+25165824 operations across 8 thread(s) in 941.994008ms; time/op = 37ns
+25165824 operations across 9 thread(s) in 865.189895ms; time/op = 34ns
+25165824 operations across 10 thread(s) in 841.866799ms; time/op = 33ns
+25165824 operations across 11 thread(s) in 785.337641ms; time/op = 31ns
+25165824 operations across 12 thread(s) in 772.690454ms; time/op = 30ns
+==
+== rapid grow
+-- Carta
+25165824 operations across 1 thread(s) in 13.990053968s; time/op = 555ns
+25165824 operations across 2 thread(s) in 14.152231121s; time/op = 562ns
+25165824 operations across 3 thread(s) in 10.152766393s; time/op = 403ns
+25165824 operations across 4 thread(s) in 8.837180538s; time/op = 350ns
+25165824 operations across 5 thread(s) in 8.057747897s; time/op = 319ns
+25165824 operations across 6 thread(s) in 7.801348436s; time/op = 309ns
+25165824 operations across 7 thread(s) in 8.120877221s; time/op = 321ns
+25165824 operations across 8 thread(s) in 7.923226495s; time/op = 314ns
+25165824 operations across 9 thread(s) in 7.748801287s; time/op = 307ns
+25165824 operations across 10 thread(s) in 7.62584764s; time/op = 302ns
+25165824 operations across 11 thread(s) in 7.627713198s; time/op = 302ns
+25165824 operations across 12 thread(s) in 7.657442254s; time/op = 304ns
+-- DashMap
+25165824 operations across 1 thread(s) in 2.989717729s; time/op = 118ns
+25165824 operations across 2 thread(s) in 3.078852608s; time/op = 122ns
+25165824 operations across 3 thread(s) in 2.181732166s; time/op = 86ns
+25165824 operations across 4 thread(s) in 1.834943236s; time/op = 72ns
+25165824 operations across 5 thread(s) in 1.671712708s; time/op = 65ns
+25165824 operations across 6 thread(s) in 1.563180177s; time/op = 61ns
+25165824 operations across 7 thread(s) in 1.469451609s; time/op = 57ns
+25165824 operations across 8 thread(s) in 1.374316174s; time/op = 53ns
+25165824 operations across 9 thread(s) in 1.199297908s; time/op = 46ns
+25165824 operations across 10 thread(s) in 1.204597509s; time/op = 47ns
+25165824 operations across 11 thread(s) in 1.188495718s; time/op = 46ns
+25165824 operations across 12 thread(s) in 956.739045ms; time/op = 38ns
+==
